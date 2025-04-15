@@ -1,0 +1,65 @@
+@keyframes glowingBorder {
+    0% {
+      border-color: rgba(255, 255, 255, 0.3);
+      box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+    }
+    50% {
+      border-color: rgba(0, 150, 255, 1);
+      box-shadow: 0 0 15px rgba(0, 150, 255, 0.7);
+    }
+    100% {
+      border-color: rgba(255, 255, 255, 0.3);
+      box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+    }
+  }
+  
+  .card-glowing-border {
+    position: relative;
+    border: 2px solid rgba(255, 255, 255, 0.3); /* initial border color */
+    animation: glowingBorder 2s infinite;
+    border-radius: 8px;
+  }
+  
+  /* .p-card {
+    background: transparent;
+  } */
+  .p-inputtext {
+    background-color: #121212;
+    color: #e0e0e0;
+    border: 1px solid #333;
+  }
+  
+  .p-inputtext:focus {
+    border-color: #ff9b00;
+  }
+
+  /* Dropdown styles */
+.p-dropdown {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light gray text */
+    border: 1px solid #333; /* Subtle border */
+  }
+  
+  .p-dropdown:focus {
+    border-color: #ff9b00; /* Highlight border on focus */
+  }
+  
+  .p-dropdown-item {
+    background-color: #121212; /* Same dark background for dropdown items */
+    color: #e0e0e0; /* Light gray text for dropdown items */
+  }
+  
+  .p-dropdown-item:hover {
+    background-color: #333333; /* Lighter hover effect */
+  }
+  
+  .p-dropdown .p-dropdown-label {
+    color: #e0e0e0; /* Ensure label text matches */
+  }
+  
+  .p-dropdown .p-dropdown-trigger {
+    color: #e0e0e0; /* Ensure the arrow/trigger text matches */
+  }
+  .p-dropdown-panel .p-dropdown-items{
+    padding: 0rem 0rem 0rem 0rem;
+  }

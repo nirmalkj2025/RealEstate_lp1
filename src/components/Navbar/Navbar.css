@@ -1,0 +1,30 @@
+.custom-menubar{
+    background: #080808;
+    border: 0;
+}
+
+/* Dark theme adjusted menu item content */
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-content {
+    color: #e0e0e0; /* Light text for dark background */
+    background-color: transparent;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-content:hover {
+    background-color: rgba(255, 255, 255, 0.05); /* subtle glow on hover */
+    color: #ff9b00; /* highlight text on hover */
+}
+.p-menubar .p-menuitem-active > .p-menuitem-content {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #ffb74d;
+}
+
+
+
+
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-content .p-menuitem-link .p-menuitem-text {
+    color: #bcbfc4;
+}

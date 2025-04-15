@@ -1,0 +1,59 @@
+/* Basic styling for TrustedBy component */
+.trustedby-wrapper {
+    background-color: inherit; /* dark background */
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  
+  p {
+    font-size: 1.125rem;
+    color: #e0e0e0;
+    max-width: 60%;
+    margin: 0 auto;
+  }
+  
+  .logos-marquee-container {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    position: relative;
+    background-color: #fff;
+
+  }
+  .marquee-track-wrapper {
+    /* display: flex; */
+    /* background-color: #fff; */
+  }
+  
+  .logos-marquee-track {
+    display: flex;
+    animation: marquee 30s linear infinite;
+    background-color: #333;
+  }
+  
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-80%);
+    }
+  }
+  
+  .divider {
+    border-top: 1px solid #333;
+    margin-top: 40px;
+  }
+  
+  /* Optional hover and grayscale effect on logos */
+  .logos-marquee-item:hover {
+    filter: brightness(1.2) contrast(1.3);
+    transition: filter 0.3s ease;
+  }
+  

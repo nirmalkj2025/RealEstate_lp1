@@ -1,0 +1,36 @@
+/* Testimonials.css */
+.testimonials {
+    background-color: inherit;
+    /* padding: 60px 0; */
+}
+
+.testimonials-title {
+    color: #333;
+}
+
+.testimonial-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-header {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-name {
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.testimonial-role {
+    font-size: 0.875rem;
+    color: #888;
+}
+
+.testimonial-text {
+    font-size: 1rem;
+    color: #555;
+}

@@ -1,0 +1,22 @@
+/* src/components/Footer/Footer.css */
+.bg-footer {
+    background-color: #333;
+  }
+  
+  .bg-footer .col h3 {
+    color: #fff;
+  }
+  
+  .bg-footer .col p,
+  .bg-footer .col li {
+    color: #ccc;
+  }
+  
+  .bg-footer .col a {
+    text-decoration: none;
+  }
+  
+  .bg-footer .col a:hover {
+    opacity: 0.7;
+  }
+  
